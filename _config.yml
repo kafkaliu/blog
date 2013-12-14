@@ -6,7 +6,8 @@ markdown: rdiscount
 pygments: true
 logo: false
 paginate: 15
+baseurl: http://kafkaliu.github.io/blog
 
 # Details for the RSS feed generator
-url:            'http://kafkaliu.github.io'
+url:            'http://kafkaliu.github.io/blog'
 author:         'Kafka Liu'
