@@ -6,7 +6,7 @@ markdown: rdiscount
 pygments: true
 logo: false
 paginate: 15
-baseurl: http://kafkaliu.github.io/blog
+baseurl: /blog
 
 # Details for the RSS feed generator
 url:            'http://kafkaliu.github.io/blog'
