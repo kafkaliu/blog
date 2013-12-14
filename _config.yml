@@ -1,0 +1,12 @@
+name: The Song From Silence
+description: Blogging about Kafka
+meta_description: "Java, Go, etc., Blogging about Kafka"
+encoding: utf-8
+markdown: rdiscount
+pygments: true
+logo: false
+paginate: 15
+
+# Details for the RSS feed generator
+url:            'http://kafkaliu.github.io'
+author:         'Kafka Liu'
