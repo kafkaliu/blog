@@ -3,7 +3,7 @@ tagline:          A short tagline
 description:      Java, Go, etc.
 encoding:         utf-8
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:          /blog
+baseurl:          /blog
 
 # Owner/author information
 owner:

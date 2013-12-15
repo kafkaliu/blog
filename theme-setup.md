@@ -65,7 +65,7 @@ minimal-mistakes/
 
 ### _config.yml
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url` or else you will get a bunch of broken links because they are absolute and prefixed with `{{ "{{ site.url " }}}}`[^1] in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
+Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. When working locally comment out `url` or else you will get a bunch of broken links because they are absolute and prefixed with `{{ "{{ site.baseurl " }}}}`[^1] in the various `_includes` and `_layouts`. Just remember to uncomment `url` when building for deployment or pushing to **gh-pages**...
 
 #### Owner/Author Information
 
@@ -177,7 +177,7 @@ Having a problem getting something to work or want to know why I setup something
 
 ## License
 
-This theme is free and open source software, distributed under the [GNU General Public License]({{ site.url }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
+This theme is free and open source software, distributed under the [GNU General Public License]({{ site.baseurl }}/LICENSE) version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. 
 
 
 [^1]: Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for canonical urls in `_head.html`. Don't include a trailing `/` in your base url ie: `http://mademistakes.com`. When developing locally remove or comment out this line so local .css, .js, and images are used.

@@ -22,7 +22,7 @@ Jekyll is pretty rad and figured releasing a cleaned up version of [my site](htt
 * Author sidebar to pimp your bio, photo[^2], and social media links.
 * Simple and clear permalink structure *(ie: domain.com/category/post-title)*
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
+<a markdown="0" href="{{ site.baseurl }}/theme-setup" class="btn">Install Minimal Mistakes Theme</a>
 
 [^1]: Since open sourcing this theme I have released a couple other Jekyll themes. My website [Made Mistakes](http://mademistakes.com) is currently using a modified version of my [So Simple Theme](http://mmistakes.github.io/so-simple-theme/).
 
