@@ -2,11 +2,11 @@ name: The Song From Silence
 description: Blogging about Kafka
 meta_description: "Java, Go, etc., Blogging about Kafka"
 encoding: utf-8
+baseurl: /blog
 markdown: rdiscount
 pygments: true
 logo: false
 paginate: 15
-baseurl: /blog
 
 # Details for the RSS feed generator
 url:            'http://kafkaliu.github.io/blog'
