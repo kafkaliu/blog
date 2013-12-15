@@ -13,16 +13,16 @@ javascript:(function(){try{if (typeof jiathis_sendto == 'undefined'){var jiathis
 
 * 在浏览器的bookmark栏上右击。
 
-![]({{site.baseurl}}/images/20131214/2.jpg)
+![]({{site.url}}/images/20131214/2.jpg)
 
 * 选择Add Page。
 
-![]({{site.baseurl}}/images/20131214/3.jpg)
+![]({{site.url}}/images/20131214/3.jpg)
 
 * 弹出框中名字随意，URL框中将刚才粘贴板中的内容复制过来，保存即可。
 
-![]({{site.baseurl}}/images/20131214/4.jpg)
+![]({{site.url}}/images/20131214/4.jpg)
 
 * 在分享页面上点击该按钮。接下来你懂的。
 
-![]({{site.baseurl}}/images/20131214/5.jpg)
+![]({{site.url}}/images/20131214/5.jpg)
