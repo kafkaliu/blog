@@ -4,7 +4,7 @@ title:  "分享任意网页至微信"
 date:   2013-12-14 19:50:52
 ---
 
-分享至微信的二维码由<a href="http://jiathis.com" target="_blank">jiathis</a>生成，感谢。另外暂时不支持https的链接。
+分享任意网页至微信的二维码由<a href="http://jiathis.com" target="_blank">jiathis</a>生成，感谢。另外暂时不支持https的链接。
 
 * 将以下内容复制到粘贴板。
 {% highlight javascript %}
