@@ -1,13 +1,68 @@
-name: The Song From Silence
-description: Blogging about Kafka
-meta_description: "Java, Go, etc., Blogging about Kafka"
-encoding: utf-8
-baseurl: /blog
-markdown: rdiscount
-pygments: true
-logo: false
-paginate: 15
+title:            The Song From Silence
+tagline:          A short tagline
+description:      Java, Go, etc.
+encoding:         utf-8
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+baseurl:          /blog
 
-# Details for the RSS feed generator
-url:            'http://kafkaliu.github.io/blog'
-author:         'Kafka Liu'
+# Owner/author information
+owner:
+  name:           Kafka Liu
+  avatar:         bio-photo.jpg
+  bio:            "Be a programmer."
+  email:          kafka.liu at gmail
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         kafkaliu
+  linkedin:       
+  instagram:      
+  lastfm:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+#  - title: About
+#    url: /about/
+  - title: Articles
+    url: /articles/
+#  - title: Theme Setup
+#    url: /theme-setup/
+#  - title: Made Mistakes
+#    url: http://mademistakes.com
+#    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    China/Shang_Hai
+future:      true
+pygments:    true
+markdown:    rdiscount
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
