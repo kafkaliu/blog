@@ -2,7 +2,7 @@
 layout: post
 title:  "分享任意网页至微信"
 date:   2013-12-14 19:50:52
-category: "programming"
+category: ""
 tags: [JavaScript, 微信]
 ---
 
